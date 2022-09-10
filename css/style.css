@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Montserrat, sans-serif;    
+    color: black;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+#intro{
+    height: 100vh;
+    background: url(/images/queenofthenight2.jpg) no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+
+}
+
+#about{
+    display: flex;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#about #container{
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+#about #container #container-2{
+    background: white;
+    padding: .75rem;
+    box-shadow: 5px 10px rgba(0,0,0,.5); 
+    
+}
+
+#about img{
+    background: pink;
+    width:300px;
+}
+
+#about #text-container{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
