@@ -54,15 +54,24 @@ table tr td button:hover{
     animation: fade-in 0.75s ease-in;
 }
 
-.animation{
-    animation: fade-in 0.75s ease-in;
+#player-image.fade-in-animation .white-back{
+    animation: fade-in 0.75 ease-in;
 }
 
-other-animation{
-    animation: fade-in 0.75s ease-in;
-}
+
+
 
 @keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out{
     from{
         opacity: 0;
     }

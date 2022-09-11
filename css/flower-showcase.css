@@ -1,0 +1,99 @@
+#number-1{
+    display: flex;
+    background: #E8A5C8;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#box-1{
+    margin: 2rem;
+}
+
+h2{
+    margin-bottom: 1.25rem;
+}
+
+#number-even{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-box{
+    background: white;
+    box-shadow: 10px 10px rgba(0,0,0,.5); 
+    padding: .75rem;
+    margin-top: 3rem;
+}
+
+#number-even #item-box h2{
+    margin-top: 3rem;
+}
+
+#flower-image{
+    width: 400px;
+    cursor: pointer;
+}
+
+#flower-content{
+    display: none !important;
+    margin-left: 5rem;
+    text-align:left;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.evenEffect{
+    animation: anotherEffect 0.75s;
+}
+
+@keyframes anotherEffect{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bg-purple{
+    background: #E8A5C8;
+}
+
+.bg-pink{
+    background: #DAC1DF;
+
+}
+
+/* odds */
+
+/* #number-odd{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #E8A5C8;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#flower-content-odd{
+    display: none !important;
+    margin-left: 5rem;
+    text-align:left;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+#flower-image-odd{
+    width: 400px;
+    cursor: pointer;
+} */
