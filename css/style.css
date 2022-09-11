@@ -11,18 +11,25 @@ body{
 }
 
 #intro{
+    position: relative;
+    overflow: hidden;
     height: 100vh;
-    background: url(/images/queenofthenight2.jpg) no-repeat;
-    background-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#intro img{
+    overflow: hidden;
+    width: 100%;
 }
 
 h1{
     color: white;
+    position: absolute;
     font-size: 4rem;
-    
+    top: 300px;
+    left: 300px;
 }
 
 #about{

@@ -51,11 +51,15 @@ table tr td button:hover{
     width: 300px;
     height: 300px;
     margin-bottom: 10px;
-    animation: fade-in 0.75s ease-in;
+    animation: fade-in 0.5s;
 }
 
-#player-image.fade-in-animation .white-back{
-    animation: fade-in 0.75 ease-in;
+#player-image.fade-in-animation{
+    animation: fade-in 0.75s ease-in-out;
+}
+
+#player-image.fade-out-animation{
+    animation: fade-in 0.75s ease-in-out;
 }
 
 

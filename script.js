@@ -17,80 +17,90 @@ function playButton(){
 }
 
 function theActualEffect(){
-    wholeContainer.classList.toggle("fade-in-animation");
+   wholeContainer.classList.toggle("fade-in-animation");
     if(wholeContainer.classList != "fade-in-animation"){
-        wholeContainer.classList.toggle("other-animation")
+        classList.toggle("fade-out-animation");
     }
-    
 }
 
 function fadeIn(){
+        theActualEffect();
         hidden.style.display = "inline-block";
-        img.src = "/images/ujico-flowers.jpg"; 
-        audio0.src="/audio/intro.mp3"; 
+        img.src = "images/ujico-flowers.jpg"; 
+        audio0.src="audio/intro.mp3"; 
         playButton();
 }
 
 function fadeIn1(){
+        theActualEffect();
         hidden.style.display = "inline-block";
-        img.src = "/images/morning-glory.jpeg";
-        audio0.src="/audio/morning-glory.mp3"; 
+        img.src = "images/morning-glory.jpeg";
+        audio0.src="audio/morning-glory.mp3"; 
         playButton();
 }
 
 function fadeIn2(){
+    theActualEffect();
     hidden.style.display = "inline-block";
-    img.src = "/images/dhalia.jpg";
-    audio0.src="/audio/dhalia.mp3"; 
+    img.src = "images/dhalia.jpg";
+    audio0.src="audio/dhalia.mp3"; 
     playButton();
 }
 
 function fadeIn3(){
+    theActualEffect();
     hidden.style.display = "inline-block";
-    img.src = "/images/lycoris.jpg";
-    audio0.src="/audio/lycoris.mp3"; 
+    img.src = "images/lycoris.jpg";
+    audio0.src="audio/lycoris.mp3"; 
     playButton();
 }
 
 function fadeIn4(){
+    theActualEffect();
+
     hidden.style.display = "inline-block";
-    img.src = "/images/sunflower.jpg";
-    audio0.src="/audio/sunflower.mp3"; 
+    img.src = "images/sunflower.jpg";
+    audio0.src="audio/sunflower.mp3"; 
     playButton();
 }
 
 function fadeIn5(){
+    theActualEffect();
     hidden.style.display = "inline-block";
-    img.src = "/images/queenofthenight3.jpg";
-    audio0.src="/audio/queen-of-the-night.mp3"; 
+    img.src = "images/queenofthenight3.jpg";
+    audio0.src="audio/queen-of-the-night.mp3"; 
     playButton();
 }
 
 function fadeIn6(){
+    theActualEffect();
     hidden.style.display = "inline-block";
-    img.src = "/images/hydrangea.jpg";
-    audio0.src="/audio/hydrangea.mp3"; 
+    img.src = "images/hydrangea.jpg";
+    audio0.src="audio/hydrangea.mp3"; 
     playButton();
 }
 
 function fadeIn7(){
+    theActualEffect();
     hidden.style.display = "inline-block";
-    img.src = "/images/lotus.jpg";
-    audio0.src="/audio/lotus.mp3"; 
+    img.src = "images/lotus.jpg";
+    audio0.src="audio/lotus.mp3"; 
     playButton();
 }
 
 function fadeIn8(){
+    theActualEffect();
     hidden.style.display = "inline-block";
-    img.src = "/images/lily.jpg";
-    audio0.src="/audio/lily.mp3"; 
+    img.src = "images/lily.jpg";
+    audio0.src="audio/lily.mp3"; 
     playButton();
 }
 
 function fadeIn9(){
+    theActualEffect();
     hidden.style.display = "inline-block";
-    img.src = "/images/carnation.jpg";
-    audio0.src="/audio/carnation.mp3"; 
+    img.src = "images/carnation.jpg";
+    audio0.src="audio/carnation.mp3"; 
     playButton();
 }
 
