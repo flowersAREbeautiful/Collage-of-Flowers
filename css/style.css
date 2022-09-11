@@ -22,7 +22,7 @@ body{
 h1{
     color: white;
     font-size: 4rem;
-
+    
 }
 
 #about{
@@ -42,12 +42,12 @@ h1{
 #about #container #container-2{
     background: white;
     padding: .75rem;
-    box-shadow: 5px 10px rgba(0,0,0,.5); 
+    box-shadow: 10px 10px rgba(0,0,0,.5); 
     
 }
 
 #about img{
-    background: pink;
+    background: #E8A5C8;
     width:300px;
 }
 
@@ -60,6 +60,12 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+#album-info{
+    background: #DAC1DF;
+}
+
+
 
 
 
