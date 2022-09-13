@@ -35,6 +35,8 @@ h1{
     text-align: center;
     background: black;  
     align-items: center;
+    width: 50vw;
+    justify-content: center;
 }
 
 #about{
